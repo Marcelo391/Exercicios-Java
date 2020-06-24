@@ -9,35 +9,35 @@ public class exercicio5 {
        float num1, num2, num3, num4;
        float m1, m2;
        
-       System.out.println("Olá, eu irei fazer a sua média de física. Então, por favor, digite as suas 4 notas.");
-       System.out.println("Me dê a primeira nota:");
+       System.out.println("OlÃ¡, eu irei fazer a sua mÃ©dia de fÃ­sica. EntÃ£o, por favor, digite as suas 4 notas.");
+       System.out.println("Me dÃª a primeira nota:");
 		num1 = leitor.nextFloat();	
 		
-		System.out.println("Me dê a segunda nota:");
+		System.out.println("Me dÃª a segunda nota:");
 		num2 = leitor.nextFloat();
 		
-		System.out.println("Me dê a terceira nota:");
+		System.out.println("Me dÃª a terceira nota:");
 		num3 = leitor.nextFloat();
 		
-		System.out.println("Me dê a quarta nota:");
+		System.out.println("Me dÃª a quarta nota:");
 		num4 = leitor.nextFloat();
 		
 		m1 = (float) (num1 + num2 + num3 + num4)/4;
 		
-		System.out.println("Sua média é:" +m1);
+		System.out.println("Sua mÃ©dia Ã©:" +m1);
 		
-if (m1 > 7 || m1 == 7) {
+if (m1 >= 7) {
 			
-			System.out.println("Você está aprovado!");
+			System.out.println("VocÃª estÃ¡ aprovado!");
 		
 		
 	} else if (m1 >= 3.5 || m1 < 7) {	
 		
-	System.out.println("Você está de recuperação! ");
+	System.out.println("VocÃª estÃ¡ de recuperaÃ§Ã£o! ");
 		
 		
 	} else if (m1 < 3.5)  {
-		System.out.println("Você está reprovado!");
+		System.out.println("VocÃª estÃ¡ reprovado!");
 		
 		
 
